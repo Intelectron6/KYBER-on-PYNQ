@@ -1,2 +1,5 @@
 # KYBER-on-PYNQ
-CRYSTALS-Kyber is a Lattice-based Post Quantum Cryptography protocol chosen for standardization by NIST. This repository contains hardware-software co-design of Kyber on PYNQ-Z2 FPGA using Vivado HLS based IP (for polynomial multiplication) and Zynq Processing System.
+CRYSTALS-Kyber is a Lattice-based Post Quantum Cryptography protocol chosen for standardization by NIST.
+
+This repository contains Hardware-Software co-design of CRYSTALS-Kyber based Public Key Cryptography system on PYNQ-Z2 FPGA.
+Number Theoretic Transform (NTT) based Polynomial Multiplication unit is designed using Vivado HLS for hardware acceleration. The accelerator is interfaced with Zynq Processing System, which runs the software part and controls data transfer to/from the accelerator.
