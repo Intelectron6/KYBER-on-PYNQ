@@ -1011,7 +1011,7 @@ void point_wise_mult (hls::stream<coeff_t_stream> &input1,
 }
 
 int poly_mult (hls::stream<coeff_t_stream_big> &input,
-			   hls::stream<coeff_t_stream> &output)
+	       hls::stream<coeff_t_stream> &output)
 {
 	#pragma HLS dataflow
 	#pragma HLS INTERFACE axis register port=input
